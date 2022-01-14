@@ -5,6 +5,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
+    <div id="game">
+        <div id="menu">
+            <div id="menu-heading">Water sort puzzle</div>
+            <div class="lvl1" id="easy" onclick="openLevel(0);">Easy</div>
+            <div class="lvl1" id="medium" onclick="openLevel(1);">Medium</div>
+            <div class="lvl1" id="hard" onclick="openLevel(2);">Hard</div>
+            <div class="lvl1" id="very-hard" onclick="openLevel(3);">Very hard</div>
+            <div class="lvl1" id="impossible" onclick="openLevel(4);">Impossible</div>
+            <br><br><br>
+            <div id="rules-btn" onclick="ShowRules();">Rules</div>
+        </div>
+        <div id="level"></div>
+        <div id="rules-page">
+            <div id="rules">
+                <div id="rules-heading">
+                    Rules
+                </div>
+                <div id="rules-text">
+                    Here are game rules.
+                </div>
+                <div id="back" onclick="HideRules();">
+                    Back
+                </div>
+            </div>
+        </div>
+    </div>    
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
